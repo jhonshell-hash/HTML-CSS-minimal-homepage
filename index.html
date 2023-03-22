@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <title>PURE FITNESS- place for fitness freaks </title>
+</head>
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /********css reset******/
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url(bg.jpg);
+    }
+
+    .navbar ul {
+        overflow: auto;
+        padding: 13px 510px;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        padding-top: 4px;
+        font-size: 16px;
+        font-family: 'Cormorant Garamond', serif;
+        font-size: 17px;
+    }
+
+    .navbar li a {
+        padding: 3px 8px;
+        text-decoration: none;
+        color: white;
+        margin: 5px 5px;
+    }
+
+    .navbar li a:hover {
+        color: #d9c03a;
+    }
+
+    .search {
+        padding: 2px 20px;
+        border: 2px solid black;
+        border-radius: 20px;
+        float: right;
+        margin: -53px 43px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .search placeholder {
+        font-family: 'Times New Roman', Times, serif;
+        ;
+    }
+
+    .logo {
+        filter: invert(100%);
+        padding: 2px 20px;
+        float: left;
+        margin: -64px 12px;
+        height: 55px;
+        width: 55px;
+    }
+
+    h5 {
+        margin: -20px 0px;
+        padding: 20px 20px;
+        font-family: 'Abril Fatface', cursive;
+        display: block;
+    }
+
+    .tagline {
+        margin: -408px -97px;
+        padding: 94px 100px;
+    }
+
+    .button {
+        background-color: black;
+        color: #d9c03a;
+    }
+
+    .chatbox {
+        position: sticky;
+        float: right;
+        margin: 116px 2px;
+        border: 20pX solid #d9c03a;
+        border-radius: 20px;
+        font-family: 'Abril Fatface', cursive;
+        text-align: center;
+    }
+
+    input {
+        font-family: 'Abril Fatface', cursive;
+        margin: 100px 10px;
+        box-sizing: border-box;
+    }
+
+    .chatboxsearch {
+        background-color: black;
+        color: #d9c03a;
+        padding: 2px 20px;
+        border: 2px solid black;
+        border-radius: 2px;
+        float: right;
+        margin: 100px 8px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+</style>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">newsFeed</a></li>
+                <li><a href="#">since</a></li>
+                <li><a href="#">timings</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+            <input type="search" class="search" placeholder="search in store products.">
+            <button type="submit" class="search button">search</button>
+            <img src="logo.png" alt="" class="logo">
+            <h5>PURE FITNESS</h5>
+            <img src="tagline.png" alt="" class="tagline">
+        </nav>
+    </header>
+
+    <div class="chatbox">
+        chat with us <br>
+        <input type="chat" placeholder="Type here...">
+        <button type="submit" class="chatboxsearch">send</button>
+    </div>
+
+</body>
+
+</html>
